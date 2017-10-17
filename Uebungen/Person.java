@@ -34,5 +34,13 @@ public class Person {
     public int getAlter() {
         return alter;
     }
+    // Setter
+    public void setName(String name){
+        this.name = name;
+    }
+    
+    public void setAlter(int alter){
+        this.alter = alter;
+    }
     
 }
